@@ -1,0 +1,44 @@
+body{
+  display: flex;
+  align-items: center;
+  background-color: lightsteelblue;
+  min-height: 100vh;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#container{
+  background-color: rgb(26, 152, 211);
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+}
+
+#container h2{
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+#container p{
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+form input{
+  margin-top: 8px;
+  margin-bottom: 10px;
+  font-size: large;
+  padding: 8px;
+  border-radius: 8px;
+  border-style: solid;
+}
+
+#download{
+  border-style: none;
+  background-color: rgb(26, 152, 211);
+}
